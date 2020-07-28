@@ -19,3 +19,10 @@ for d in data:
 print('一共有', len(new), '筆資料長度小於100')
 print(new[0].strip())
 print(new[1].strip())
+
+good= []
+for d in data:
+    if 'good' in d:
+        good.append(d)
+print('一共有', len(good), '筆留言提到good')
+print(good[0])
